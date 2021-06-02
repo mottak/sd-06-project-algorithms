@@ -1,5 +1,6 @@
 from collections import Counter
 
+
 def find_duplicate(nums):
     if len(nums) <= 1 or type(nums) == str:
         return False
