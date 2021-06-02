@@ -142,7 +142,7 @@ $ python3 nome_do_arquivo.py
 ### Data de Entrega
 
   - Serão `2` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `10/06/2021 - 14:00h`.
+  - Data de entrega para avaliação final do projeto: `14/06/2021 - 14:00h`.
 
 ---
 
