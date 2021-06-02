@@ -1,5 +1,6 @@
 from challenges.challenge_anagrams import quicksort
 
+
 def find_duplicate(nums):
     """ Recebe uma lista de números inteiros >= 1 como parâmetro,
         ordena e retorna um número se ele for repetido na lista """
