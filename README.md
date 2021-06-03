@@ -12,7 +12,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ---
 # Sumário
 
-- [Habilidades](#habilidades)
+- [Habilidades](#habilidades).
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
