@@ -5,11 +5,7 @@ def study_schedule(start_time, end_time, target_time):
     count = 0
 
     for x in range(0, len(start_time)):
-        index = start_time[x]
-
-        while index <= end_time[x]:
-            if index == target_time:
-                count += 1
-            index += 1
+        if target_time >= start_time[x] and target_time <= end_time[x]:
+            count += 1
 
     return count
