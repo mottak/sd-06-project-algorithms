@@ -1,7 +1,7 @@
 def study_schedule(start_time, end_time, target_time):
     """ Faça o código aqui. """
     list = []
-    for start_time, end_time  in zip(start_time, end_time):
+    for start_time, end_time in zip(start_time, end_time):
         list.append((start_time, end_time))
 
     cont_result = 0
