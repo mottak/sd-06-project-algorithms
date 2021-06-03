@@ -235,7 +235,7 @@ ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 
 Com as dependências já instaladas basta executar o comando:
 
-```bash
+```ba sh
 python3 -m pytest
 ```
 
