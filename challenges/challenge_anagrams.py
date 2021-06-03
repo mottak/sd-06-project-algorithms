@@ -29,6 +29,7 @@ def quicksort(array, start=0, end=None):
 def is_anagram(first_string, second_string):
     list1 = list(first_string)
     list2 = list(second_string)
+
     quicksort(list1)
     quicksort(list2)
 
