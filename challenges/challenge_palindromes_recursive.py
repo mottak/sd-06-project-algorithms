@@ -21,5 +21,5 @@ def is_palindrome_recursive(word, low, high):
     return is_palindrome_recursive(word, low + 1, high - 1)
 
 
-word = 'ARARA'
-print(is_palindrome_recursive(word, 0, len(word) - 1))
+# word = 'ARARA'
+# print(is_palindrome_recursive(word, 0, len(word) - 1))
