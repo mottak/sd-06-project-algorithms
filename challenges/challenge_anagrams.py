@@ -14,30 +14,20 @@ def insertion_sort(array, min, max):
 
 
 def merge(left, right):
-    if len(left) == 0:
-        return right
-
-    if len(right) == 0:
-        return left
-
     result = []
     index_left = index_right = 0
-    while len(result) < len(left) + len(right):
+    while index_left < len(left) and index_right < len(right):
         if left[index_left] <= right[index_right]:
             result.append(left[index_left])
             index_left += 1
-
         else:
             result.append(right[index_right])
             index_right += 1
 
-        if index_right == len(right):
-            result += left[index_left:]
-            break
-
-        if index_left == len(left):
-            result += right[index_right:]
-            break
+    if index_left >= len(left):
+        result += left[index_left:]
+    else:
+        result += right[index_right:]
 
     return result
 
@@ -68,6 +58,4 @@ def is_anagram(first_string, second_string):
     decimal_first_string = list(map(lambda x: ord(x), list(first_string)))
     decimal_second_string = list(map(lambda x: ord(x), list(second_string)))
 
-    if(timsort(decimal_first_string) == timsort(decimal_second_string)):
-        return True
-    return False
+    return timsort(decimal_first_string) == timsort(decimal_second_string)
