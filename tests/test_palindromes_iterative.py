@@ -29,10 +29,10 @@ def test_validar_tempo_iterative():
     word = "ANA"
     algorithms_correct = is_palindrome_iterative(word) is True
     time = timeit.timeit(
-            'is_palindrome_iterative("ANA")',
-            setup=f"{setup_import}",
-            number=10000,
-        )
+        'is_palindrome_iterative("ANA")',
+        setup=f"{setup_import}",
+        number=10000,
+    )
     correct_time = time <= 0.005
     assert (
         algorithms_correct and correct_time
